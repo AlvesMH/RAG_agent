@@ -1,0 +1,8 @@
+gradio>=3.20.0
+requests>=2.28.1
+fpdf>=1.7.2
+python-dotenv>=0.21.0
+langchain>=0.0.200
+langchain-chroma>=0.0.4
+chromadb>=0.3.24
+PyPDF2>=3.0.0

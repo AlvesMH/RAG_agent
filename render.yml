@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: simple-rag-agent
+    env: python
+    repo: https://github.com/alvesmh8/RAG_agent
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python Simple_RAG_Agent.py
+    envVars:
+      - key: SEA_LION_API_KEY
+      - key: HUGGINGFACE_API_TOKEN
