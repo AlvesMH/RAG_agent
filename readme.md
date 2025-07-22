@@ -1,4 +1,7 @@
-## Simple RAG Agent (SeaLion + Hugging Face)
+## Simple Retrieval-Augmented Generation (RAG) Agent 
+
+### LIVE-DEMO: 
+### https://simple-rag-agent.onrender.com
 
 A simple Retrieval-Augmented Generation (RAG) agent that:
 
@@ -50,8 +53,8 @@ A simple Retrieval-Augmented Generation (RAG) agent that:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/santa-luzia-rag-agent.git
-   cd santa-luzia-rag-agent
+   git clone https://github.com/AlvesMH/RAG_agent.git
+   cd simple-rag-agent
    ```
 
 2. **Create & activate a virtual environment**
@@ -97,7 +100,7 @@ cp .env.example .env
 1. **Launch the Gradio app**
 
    ```bash
-   python rag_agent_sealion_hf.py
+   python Simple_RAG_Agent.py
    ```
 
    This will open a local web interface (usually at `http://localhost:7860`).
@@ -125,10 +128,10 @@ cp .env.example .env
 ```
 ├── .env.example            # Example env file
 ├── requirements.txt        # Python dependencies
-├── rag_agent_sealion_hf.py # Main application script
-├── chroma_db/              # Local ChromaDB persistent store
+├── Simple_RAG_Agent.py     # Main application script
+├── chroma_db/              # Vectorstore
 ├── README.md               # This file
-└── utils/                  # (Optional) shared modules or helpers
+               
 ```
 
 ---
@@ -149,18 +152,8 @@ cp .env.example .env
 
 ---
 
-## Contributing
-
-1. Fork the repo
-2. Create a feature branch (`git checkout -b feature/xyz`)
-3. Commit your changes (`git commit -m "Add xyz feature"`)
-4. Push to branch (`git push origin feature/xyz`)
-5. Open a Pull Request
-
-Please adhere to the existing code style and add tests where appropriate.
-
----
-
 ## License
 
 This project is distributed under the MIT License. See [LICENSE](LICENSE) for more details.
+
+Built with ❤️ in Singapore
