@@ -158,4 +158,4 @@ This project is distributed under the MIT License. See [LICENSE](LICENSE) for mo
 
 Built with ❤️ in Singapore
 
-![Simple_RAG_Agent](img/screenshot.jpg)
+![Simple_RAG_Agent](img/Screenshot.jpg)
