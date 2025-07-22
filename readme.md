@@ -157,3 +157,5 @@ cp .env.example .env
 This project is distributed under the MIT License. See [LICENSE](LICENSE) for more details.
 
 Built with ❤️ in Singapore
+
+![Simple_RAG_Agent](screenshot.jpg)
