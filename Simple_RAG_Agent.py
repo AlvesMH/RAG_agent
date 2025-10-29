@@ -18,7 +18,7 @@ HUGGINGFACE_API_TOKEN = os.getenv("HUGGINGFACE_API_TOKEN")
 
 # Configuration
 SEA_LION_BASE_URL = "https://api.sea-lion.ai/v1/chat/completions"
-DEFAULT_SEALION_MODEL = "aisingapore/Gemma-SEA-LION-v3-9B-IT"
+DEFAULT_SEALION_MODEL = "aisingapore/Gemma-SEA-LION-v4-27B-IT"
 
 HF_EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 HF_EMBED_API = (
@@ -182,3 +182,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
