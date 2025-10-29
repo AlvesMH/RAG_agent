@@ -7,8 +7,8 @@ from typing import List, Tuple
 import gradio as gr
 from fpdf import FPDF
 from dotenv import load_dotenv
-from langchain.schema import Document
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_core.documents import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma  # pip install -U langchain-chroma
 
 # Load environment variables
